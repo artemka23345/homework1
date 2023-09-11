@@ -47,6 +47,15 @@ public class Main {
         var weightDifference = inokentiiNikolaevich - ivanIvanovich;
         System.out.println(weightDifference);
 
+        totalWeight = inokentiiNikolaevich - ivanIvanovich;
+        System.out.println(totalWeight);
+        weightDifference = inokentiiNikolaevich % ivanIvanovich;
+        System.out.println(weightDifference);
+
+
+
+
+
 
     }
 }
