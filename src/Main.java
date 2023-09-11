@@ -40,6 +40,15 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        var ivanIvanovich = 78.2;
+        var inokentiiNikolaevich = 82.7;
+        var totalWeight = inokentiiNikolaevich + ivanIvanovich;
+        System.out.println(totalWeight);
+        var weightDifference = inokentiiNikolaevich % ivanIvanovich;
+        System.out.println(weightDifference);
+
+
+
 
 
 
