@@ -52,6 +52,19 @@ public class Main {
         weightDifference = inokentiiNikolaevich % ivanIvanovich;
         System.out.println(weightDifference);
 
+        var totalWorkTime = 640;
+        var timeWorked = 8;
+        var totalEmployees = totalWorkTime / timeWorked;
+        System.out.println("Всего работников в компании - " + totalEmployees);
+
+        totalEmployees =  totalEmployees + 94;
+        timeWorked = timeWorked * totalEmployees;
+        System.out.println("Если в компании работает " +
+                totalEmployees + " человек, то всего " +
+                timeWorked + " часов работы может быть поделено между сотрудниками");
+
+
+
 
 
 
